@@ -1,4 +1,44 @@
 body{
 	font-family: "Courier New", monospace;
-	padding: 10px;
+	padding: 1%;
+	background: rgb(26,26,26);
+	color: white;
+}
+
+head {
+	padding: 1%;
+}
+
+#manual {
+	display: flex;
+	flex-direction: column;
+}
+
+#manualitem {
+	width: 50%;
+	height: 30%;
+	padding-bottom: 2%
+}
+
+#tooldesc {
+	margin-left: 1%;
+	padding-left: 1%;
+	padding-bottom: 0.5%
+}
+
+u {
+	text-decoration: underline;
+	font-style: italic;
+	padding-bottom: 0.5%
+}
+
+a {
+	text-decoration: none;
+	color: rgb(204,0,102);
+}
+
+a:hover {
+	font-style: italic;
+	background-color: white;
+	color: black;
 }
